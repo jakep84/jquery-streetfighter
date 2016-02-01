@@ -1,0 +1,29 @@
+body {
+	background-color:black;
+	border:solid 1px black;
+}
+.main {
+	backgound-color: white;
+	margin-top: 110px;
+	padding-left: 100px;
+	min-width: 1200px;
+	height: 500px;
+	position: relative;
+	z-index: 1;
+	border: solid 1px yellow;
+}
+div {
+	border:dashed 1px white;
+}
+#ryu {
+	border:dashed 1px green;
+}
+
+
+
+
+/*
+$("document").ready(function(
+
+
+));*/
