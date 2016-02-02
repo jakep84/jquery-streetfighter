@@ -46,6 +46,8 @@ body {
   height: 90px;
  /* display: none;*/
   float: left;
+  top: 160px;
+  left: 600px;
   position: absolute;
   z-index: 10;
 }
