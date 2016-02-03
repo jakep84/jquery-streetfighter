@@ -10,12 +10,12 @@ $(document).ready(function() {
 	.mousedown(function() {
     	$('.ryu-ready').hide();
     	$('.ryu-throwing').show();
+    	$('.hadouken').show();
     // play hadouken sound
     // show hadouken and animate it to the right of the screen
   })
     .mouseup(function() {
     	$('.ryu-ready').show();
     	$('.ryu-throwing').hide();
-    // ryu goes back to his ready position
   });
 });
