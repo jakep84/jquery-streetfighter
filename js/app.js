@@ -15,7 +15,7 @@ $(document).ready(function() {
     		500,
     		function() {
     			$(this).hide();
-    			$('this').css('left', '520px');
+    			$(this).css('left', '520px');
     		});
     // play hadouken sound
     // animate hadouken to the right of the screen
