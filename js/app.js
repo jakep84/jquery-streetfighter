@@ -2,17 +2,20 @@ $(document).ready(function() {
 	$('.ryu').mouseenter(function() {
 		$('.ryu-still').hide();
 		$('.ryu-ready').show();
-	});
-	$('.ryu').mouseleave(function() {
+	})
+	.mouseleave(function() {
 		$('.ryu-still').show();
 		$('.ryu-ready').hide();
-	});
-	$('.ryu').mousedown(function() {
-		$('.ryu-throwing').show();
-		$('.ryu-ready').hide();
-	});
-	$('.ryu').mouseup(function() {
-		$('ryu-ready').show();
-		$('ryu-throwing').hide();
-	});
+	})
+	.mousedown(function() {
+    	$('.ryu-ready').hide();
+    	$('.ryu-throwing').show();
+    // play hadouken sound
+    // show hadouken and animate it to the right of the screen
+  })
+    .mouseup(function() {
+    	$('.ryu-ready').show();
+    	$('.ryu-throwing').hide();
+    // ryu goes back to his ready position
+  });
 });
