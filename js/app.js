@@ -18,22 +18,26 @@ $(document).ready(function() {
     		function() {
     			$(this).hide();
     			$(this).css('left', '520px');
-    		}
-            );
+    		});
   })
     .mouseup(function() {
     	$('.ryu-ready').show();
     	$('.ryu-throwing').hide();
-  });
-});
-   // .keydown(function() {
-    //     .alert('keydown');
-    // });
+  })
+    $(document).keydown(function(e){
+       if (e.keyCode == 88) {
+        alert('keydown');
+         }
+     })
     function playHadouken () {
         $('#hadouken-sound')[0].volume = 0.5;
         $('#hadouken-sound')[0].load();
         $('#hadouken-sound')[0].play(); 
     }
+});
+//  <audio id="hadouken-sound" src=" 
+//    sound/hadouken.mp3">
+
 // $(document).ready(function() {
 //   $('.ryu').mouseenter(function() {
 //     alert('mouse entered .ryu div');
