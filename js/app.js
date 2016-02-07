@@ -26,12 +26,19 @@ $(document).ready(function() {
   })
     $(document).keydown(function(e){
        if (e.keyCode == 88) {
-        $('.ryu-ready').hide;
-        $('.ryu-still').hide;
-        $('.ryu-cool').show;
-         // alert('this');
+         $('.ryu-ready').hide();
+         $('.ryu-still').hide();
+         $('.ryu-cool').show();
          }
      })
+    $(document).keyup(function(e){
+       if (e.keyCode == 88) {
+         $('.ryu-cool').hide();
+         $('.ryu-ready').show();
+         $('.ryu-still').hide();
+         }
+     })
+
     function playHadouken () {
         $('#hadouken-sound')[0].volume = 0.5;
         $('#hadouken-sound')[0].load();
