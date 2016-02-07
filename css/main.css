@@ -5,22 +5,22 @@ body {
 .main {
 	background-color: white;
 	margin-top: 110px;
-	padding-left: 100px;
-	min-width: 1200px;
+	padding-left: 0px;
+	min-width: 120px;
 	height: 500px;
 	position: relative;
 	z-index: 1;
 }
 .ryu {
 	float: left;
-	width:659 px;
+	width:536 px;
 	height: 494px;
 }
 .hadouken {
 	float:right;
 }
 .ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
-  width: 659px;
+  width: 536px;
   height: 494px;
 }
 .ryu-ready, .ryu-throwing, .ryu-cool {
@@ -53,11 +53,13 @@ body {
   z-index: 10;
 }
 .title-instruct {
-	font-family:Crime Times Six.ttf, sans-;
-	width: 156px;
-	height: 90px;
+	font-family:Crime Times Six.ttf, sans-serif;
+	width: 650px;
+    height: 494px;
 	display: inline;
+	text-align:center;
 	z-index: 0;
 	position: absolute;
 	background-image: url('../images/street-fighter1.png');
+	background-repeat: no-repeat;
 }
