@@ -1,5 +1,6 @@
 body {
 	background-color:black;
+	font-family: Crime Times Six.ttf, sans-;
 }
 .main {
 	background-color: white;
@@ -50,4 +51,13 @@ body {
   left: 600px;
   position: absolute;
   z-index: 10;
+}
+.title-instruct {
+	font-family:Crime Times Six.ttf, sans-;
+	width: 156px;
+	height: 90px;
+	display: inline;
+	z-index: 0;
+	position: absolute;
+	background-image: url('../images/street-fighter1.png');
 }
