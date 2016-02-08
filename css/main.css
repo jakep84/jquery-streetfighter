@@ -1,28 +1,29 @@
 body {
 	background-color:black;
+	font-family: Crime Times Six.ttf, sans-;
 }
 .main {
 	background-color: white;
 	margin-top: 110px;
-	padding-left: 100px;
-	min-width: 1200px;
+	padding-left: 0px;
+	min-width: 120px;
 	height: 500px;
 	position: relative;
 	z-index: 1;
 }
 .ryu {
 	float: left;
-	width:659 px;
+	width:536 px;
 	height: 494px;
 }
 .hadouken {
 	float:right;
 }
-.ryu-ready, .ryu-still, .ryu-throwing {
-  width: 659px;
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+  width: 536px;
   height: 494px;
 }
-.ryu-ready, .ryu-throwing {
+.ryu-ready, .ryu-throwing, .ryu-cool {
   display: none;
 } 
 .ryu-ready {
@@ -34,6 +35,9 @@ body {
 .ryu-throwing {
   background-image: url('../images/ryu-throwing-hadouken.png');
 	}
+.ryu-cool {
+	background-image: url('../images/ryu-cool.gif');
+}
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
   background-repeat: no-repeat;
 	}
@@ -47,4 +51,15 @@ body {
   left: 600px;
   position: absolute;
   z-index: 10;
+}
+.title-instruct {
+	font-family:Crime Times Six.ttf, sans-serif;
+	width: 650px;
+    height: 494px;
+	display: inline;
+	text-align:center;
+	z-index: 0;
+	position: absolute;
+	background-image: url('../images/street-fighter1.png');
+	background-repeat: no-repeat;
 }
