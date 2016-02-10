@@ -53,8 +53,9 @@ body {
   z-index: 10;
 }
 .x, .click {
-	    font-family: 'Bangers', cursive;
-	    z-index: 1;
+	display:inline-block;
+	font-family: 'Bangers', cursive;
+	z-index: 1;
 }
 .x {
 	float:left;
@@ -66,7 +67,7 @@ body {
 	font-family:Crime Times Six.ttf, sans-serif;
 	width: 650px;
     height: 300px;
-	display: inline;
+	display: inline-block;
 	text-align:center;
 	z-index: 0;
 	position: absolute;
