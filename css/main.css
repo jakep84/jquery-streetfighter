@@ -52,10 +52,20 @@ body {
   position: absolute;
   z-index: 10;
 }
+.x, .click {
+	    font-family: 'Bangers', cursive;
+	    z-index: 1;
+}
+.x {
+	float:left;
+}
+.click {
+	float:right;
+}
 .title-instruct {
 	font-family:Crime Times Six.ttf, sans-serif;
 	width: 650px;
-    height: 494px;
+    height: 300px;
 	display: inline;
 	text-align:center;
 	z-index: 0;
