@@ -77,6 +77,16 @@ body {
 	background-image: url('../images/street-fighter1.png');
 	background-repeat: no-repeat;
 }
+[class*="col-"] {
+	float:left;
+	padding: 15px;
+	border: 1px solid red;
+}
+.row:after {
+	content:" ";
+	clear: both;
+	display: block;
+}
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
