@@ -1,6 +1,9 @@
+* {
+	box-sizing: border-box;
+}	
 body {
 	background-color:black;
-	font-family: Crime Times Six.ttf, sans-;
+    font-family: 'Bangers', cursive;
 }
 .main {
 	background-color: white;
@@ -52,11 +55,23 @@ body {
   position: absolute;
   z-index: 10;
 }
+.x, .click {
+	display:inline-block;
+	font-family: 'Bangers',cursive;
+	font-size: xx-large;
+}
+.x {
+	float:left;
+	margin-top: 336px;
+}
+.click {
+	float:right;
+}
 .title-instruct {
 	font-family:Crime Times Six.ttf, sans-serif;
 	width: 650px;
-    height: 494px;
-	display: inline;
+    height: 300px;
+	display: inline-block;
 	text-align:center;
 	z-index: 0;
 	position: absolute;
