@@ -13,7 +13,7 @@ body {
 }
 .ryu {
 	float: left;
-	width:536 px;
+	width: 536 px;
 	height: 494px;
 }
 .hadouken {
@@ -55,7 +55,7 @@ body {
 .x, .click {
 	display:inline-block;
 	font-family: 'Bangers',cursive;
-	font-size:xx-large;
+	font-size:20px;
 }
 .x {
 	float:left;
@@ -68,7 +68,7 @@ body {
 	width: 650px;
     height: 300px;
 	display: inline-block;
-	text-align:center;
+	text-align: center;
 	z-index: 0;
 	position: absolute;
 	background-image: url('../images/street-fighter1.png');
