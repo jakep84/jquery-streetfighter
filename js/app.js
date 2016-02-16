@@ -11,7 +11,7 @@ $(document).ready(function() {
         playHadouken();
     	$('.ryu-ready').hide();
     	$('.ryu-throwing').show();
-    	$('.hadouken').finish().show();
+    	$('.hadouken').finish().show()
         .animate(
     		{'left': '1300px'},
     		500,
