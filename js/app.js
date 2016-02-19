@@ -44,6 +44,7 @@ $(document).ready(function() {
     $(document).keyup(function(e){
        if (e.keyCode == 88) {
         lookingCool=false; 
+         $('.ryu-throwing').hide();
          $('.ryu-cool').hide();
          $('.ryu-ready').show();
          $('.ryu-still').hide();
