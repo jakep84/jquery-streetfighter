@@ -1,3 +1,7 @@
+// not sure how to keep (.mouseDown 
+// + keyCode == 88) from showing multiple 
+// images
+
 $(document).ready(function() {
         var lookingCool = false;
         var hadouken = false;
@@ -9,6 +13,8 @@ $(document).ready(function() {
     if (! lookingCool ) {
 		$('.ryu-still').show();
 		$('.ryu-ready').hide();
+        $('.ryu-throwing').hide();
+        $('.ryu-cool').hide();
         }
 	})
 	.mousedown(function() {
@@ -30,6 +36,8 @@ $(document).ready(function() {
   })
     .mouseup(function() {
     	$('.ryu-ready').show();
+        $('.ryu-cool').hide
+        $('.ryu-still').hide
     	$('.ryu-throwing').hide();
   });
     $(document).keydown(function(e){
